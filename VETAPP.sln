@@ -2,9 +2,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VETAPP", "VETAPP.csproj", "{EB1AC848-B8EE-4E15-9918-E27D45B2E5D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VETAPPAPI", "..\VETAPPAPI\VETAPPAPI.csproj", "{F812A2DE-C4E5-437E-B86F-491400123EF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VETAPPAPI", "..\VETAPPAPI\VETAPPAPI.csproj", "{F812A2DE-C4E5-437E-B86F-491400123EF2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VETAPPMAUI", "..\VETAPPMAUI\VETAPPMAUI.csproj", "{0550C10D-E9CA-4F61-ABB1-BD576E8CD52B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,16 +12,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EB1AC848-B8EE-4E15-9918-E27D45B2E5D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EB1AC848-B8EE-4E15-9918-E27D45B2E5D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EB1AC848-B8EE-4E15-9918-E27D45B2E5D1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{EB1AC848-B8EE-4E15-9918-E27D45B2E5D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EB1AC848-B8EE-4E15-9918-E27D45B2E5D1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EB1AC848-B8EE-4E15-9918-E27D45B2E5D1}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{F812A2DE-C4E5-437E-B86F-491400123EF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F812A2DE-C4E5-437E-B86F-491400123EF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F812A2DE-C4E5-437E-B86F-491400123EF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F812A2DE-C4E5-437E-B86F-491400123EF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0550C10D-E9CA-4F61-ABB1-BD576E8CD52B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0550C10D-E9CA-4F61-ABB1-BD576E8CD52B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0550C10D-E9CA-4F61-ABB1-BD576E8CD52B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0550C10D-E9CA-4F61-ABB1-BD576E8CD52B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0550C10D-E9CA-4F61-ABB1-BD576E8CD52B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0550C10D-E9CA-4F61-ABB1-BD576E8CD52B}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,5 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
 using VETAPP.Data;
+using VETAPP.Data.services;
+using VETAPP.Data.services.Interfaces;
 
 namespace VETAPP;
 
@@ -21,9 +23,8 @@ public static class MauiProgram
 		builder.Services.AddBlazorWebViewDeveloperTools();
 		builder.Logging.AddDebug();
 #endif
-
+		builder.Services.AddSingleton<IUserService, UserService>();
 		builder.Services.AddSingleton<WeatherForecastService>();
-
-		return builder.Build();
+        return builder.Build();
 	}
 }
